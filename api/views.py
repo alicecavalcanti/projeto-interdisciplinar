@@ -9,8 +9,8 @@ from rest_framework import status  # type: ignore
 import pickle
 
 # Carregar o modelo treinado
-modelo_path = "./api/modelo_teste.pkl"
-colunas_path = "./api/colunas.pkl"
+modelo_path = "./clinica/models/modelo_teste.pkl"
+colunas_path = "./clinica/models/colunas.pkl"
 try:
     # Carrega o modelo
     with open(modelo_path, 'rb') as f:
